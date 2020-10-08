@@ -9,46 +9,43 @@
   </head>
   <body>
       <section id="main">
-          <section id="bar">
+        <div id="loader"></div>
+        <div id="game" class="hidden">
+          <section id="score-section">
+            <div id="progress">
+                <div id="progressText">Question 2/3</div>
+                <div id="progress-bar">
+                    <div id="inner-bar">
 
-            <div id="hud">
-                <div id="hud-item1">
-                  <div id="progressText" class="hud-prefix">
-                    Question
-                  </div>
-                  <div id="progressBar">
-                    <div id="progressBarFull"></div>
-                  </div>
+                    </div>
                 </div>
-                <div id="hud-item2">
-                  <div class="hud-prefix">
-                    Score
-                  </div>
-                  <div class="hud-main-text" id="score">
-                    <div>0</div>
-                  </div>
-                </div>
-              </div>
+            </div>
+            <div id="score">
+                <div>Score</div>
+                <div id="score">0</div>
+            </div>
           </section>
-        <section id="sub-section">
-            <h1>What is the answer to this questions?</h1>
-            <div>
-                <span>A</span>
-                <span>Choice 1</span>
+        <section id="question-section">
+            <h1 id="question"></h1>
+            <div class="answer">
+                <div class="choice-prefix">A</div>
+                <div class="choice-text" data-number="1"></div>
             </div>
-            <div>
-                <span>B</span>
-                <span>Choice 2</span>
+            <div class="answer">
+                <div class="choice-prefix">B</div>
+                <div class="choice-text" data-number="2"></div>
             </div>
-            <div>
-                <span>C</span>
-                <span>Choice 3</span>
+            <div class="answer">
+                <div class="choice-prefix">C</div>
+                <div class="choice-text" data-number="3"></div>
             </div>
-            <div>
-                <span>D</span>
-                <span>Choice 4</span>
+            <div class="answer">
+                <div class="choice-prefix">D</div>
+                <div class="choice-text" data-number="4"></div>
             </div>
         </section>
+      </div>
       </section>
+      <script src="game.js"></script>
   </body>
 </html>

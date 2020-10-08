@@ -14,19 +14,25 @@ section:nth-child(1){
     width: 100%;
     height: 100vh;
 }
-#show-high-score{
+#highScores{
     display: flex;
 }
-#high-score-text{
+#finalScore{
     font-size: 3.6rem;
     color: #56a5eb;
+}
+#highScoresList{
+    list-style: none;
+}
+#highScoresList li{
+    margin: 0.3rem 0;
 }
 #home{
     text-decoration: none;
     width: 11rem;
     text-align: center;
     border: 0.1rem solid #56a5eb;
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding: 0.6rem 0;
     background-color: white;
     font-size: 1.2rem;

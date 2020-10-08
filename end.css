@@ -44,6 +44,11 @@ section:nth-child(1){
     border: 0.1rem solid #56a5eb;
     margin-bottom: 0.5rem;
     background-color: white;
-    cursor: not-allowed;
     color: #56a5eb;
+    cursor: pointer;
 }
+#saveScoreBtn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }

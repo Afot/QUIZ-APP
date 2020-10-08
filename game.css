@@ -21,7 +21,7 @@ h1{
 }
 #score-section {
     display: flex;
-    width: 48%;
+    width: 100%;
 }
 #progress {
     margin-right: auto;
@@ -50,6 +50,9 @@ h1{
 #score div:nth-child(2){
     font-size: 3.4rem;
     
+}
+#scores{
+    color:  #56a5eb ;
 }
 #question-section {
     display: flex;  

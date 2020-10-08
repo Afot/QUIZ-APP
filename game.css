@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    font-size: 62.5%;
+}
+/*|Beginning of CSS style for the index page */
+#main{
+    background: rgb(87, 98, 119);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: xxx-large;
+    text-align: center;
+}
+#bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+#bar > div{
+    width: 100%;
+}
+#sub-section {
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+#sub-section > div {
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+#sub-section > div:hover{
+    padding: 0;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+div > span {
+    font-size: 1.2rem;
+    padding: 0.7rem 1.5rem;
+}
+
+div > span:nth-child(1){
+    color: white;
+    background-color: cadetblue;
+}
+div > span:nth-child(2){
+    background-color: white;
+    flex: auto;
+}
+#score > div  {
+    font-size: 3rem;
+    margin-top: 1.1rem;
+}
+#hud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .hud-main-text {
+    text-align: center;
+  }
+  
+  #progressBar {
+    width: 15rem;
+    height: 2rem;
+    border: 0.3rem solid #56a5eb;
+    margin-top: 1.5rem;
+  }
+  
+  /* #progressBarFull {
+    height: 3.4rem;
+    background-color: #56a5eb;
+    width: 0%;
+  } */
